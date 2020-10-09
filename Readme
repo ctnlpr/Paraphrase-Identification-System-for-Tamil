@@ -1,0 +1,48 @@
+required libraries
+===================
+numpy
+scipy
+sklearn
+
+
+training_file format
+=====================
+as given inside the directory 'Data'
+
+others
+=======
+must need to create a empty directory named 'Models'
+
+folder structure
+=================
+
+--tamilParaPhrase
+	-- Code
+		-- classifier.py
+		-- config.py
+		-- featurizer.py
+		-- load_data.py
+		-- paraPhrase_test.py
+		-- paraPhrase_train.py
+		-- representation.py
+	-- Data
+		-- testing_labels.txt
+		-- test_pairs.txt
+		-- training_labels.txt
+		-- train_pairs.txt
+	-- Models
+	-- Readme
+
+2. change the parameters in "config.py" in the folder "code"
+
+
+
+
+
+Testing:
+
+1. service.py - It serves light weight bottle based python service at port 8000  (http://localhost:8000), can be easilly configured.
+
+2. model - model will be selected as algorithm choosed in "config.py" file
+
+
